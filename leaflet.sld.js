@@ -368,10 +368,10 @@
          // Declare variable to hold svg contents
          var svgText;
    
-         // Dynamically load modules of svgs in plaintext
-         const svgFiles = require.context(
-            '!url-loader?encoding=ascii!./images/FGDC_svgs/', true, /\.svg$/
-         );
+         // Dynamically load modules of svgs in plaintext (need to edit the directory)
+         //const svgFiles = require.context(
+            //'!url-loader?encoding=ascii!./images/FGDC_svgs/', true, /\.svg$/
+         //);
          
          // Loop through loaded files
          svgFiles.keys().forEach( (svgKey) => {
