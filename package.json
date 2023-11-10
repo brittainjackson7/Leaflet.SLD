@@ -1,0 +1,26 @@
+{
+  "name": "leaflet.sld",
+  "version": "1.0.0",
+  "description": "npm module for leaflet.sld",
+  "main": "leaflet.sld.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittainjackson7/Leaflet.SLD.git"
+  },
+  "keywords": [
+    "sld"
+  ],
+  "author": "orfon & GeoKings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brittainjackson7/Leaflet.SLD/issues"
+  },
+  "homepage": "https://github.com/brittainjackson7/Leaflet.SLD#readme"
+}
